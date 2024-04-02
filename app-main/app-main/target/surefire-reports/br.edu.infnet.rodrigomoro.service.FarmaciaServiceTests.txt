@@ -1,0 +1,26 @@
+-------------------------------------------------------------------------------
+Test set: br.edu.infnet.rodrigomoro.service.FarmaciaServiceTests
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 3, Skipped: 0, Time elapsed: 0.115 s <<< FAILURE! - in br.edu.infnet.rodrigomoro.service.FarmaciaServiceTests
+inclusao  Time elapsed: 0.08 s  <<< ERROR!
+org.springframework.dao.IncorrectResultSizeDataAccessException: query did not return a unique result: 2; nested exception is javax.persistence.NonUniqueResultException: query did not return a unique result: 2
+	at br.edu.infnet.rodrigomoro.service.FarmaciaServiceTests.inclusao(FarmaciaServiceTests.java:36)
+Caused by: javax.persistence.NonUniqueResultException: query did not return a unique result: 2
+	at br.edu.infnet.rodrigomoro.service.FarmaciaServiceTests.inclusao(FarmaciaServiceTests.java:36)
+
+recuperacaoTotal  Time elapsed: 0.013 s  <<< ERROR!
+org.springframework.dao.IncorrectResultSizeDataAccessException: query did not return a unique result: 3; nested exception is javax.persistence.NonUniqueResultException: query did not return a unique result: 3
+	at br.edu.infnet.rodrigomoro.service.FarmaciaServiceTests.inclusao(FarmaciaServiceTests.java:36)
+	at br.edu.infnet.rodrigomoro.service.FarmaciaServiceTests.recuperacaoTotal(FarmaciaServiceTests.java:50)
+Caused by: javax.persistence.NonUniqueResultException: query did not return a unique result: 3
+	at br.edu.infnet.rodrigomoro.service.FarmaciaServiceTests.inclusao(FarmaciaServiceTests.java:36)
+	at br.edu.infnet.rodrigomoro.service.FarmaciaServiceTests.recuperacaoTotal(FarmaciaServiceTests.java:50)
+
+exclusao  Time elapsed: 0.018 s  <<< ERROR!
+org.springframework.dao.IncorrectResultSizeDataAccessException: query did not return a unique result: 4; nested exception is javax.persistence.NonUniqueResultException: query did not return a unique result: 4
+	at br.edu.infnet.rodrigomoro.service.FarmaciaServiceTests.inclusao(FarmaciaServiceTests.java:36)
+	at br.edu.infnet.rodrigomoro.service.FarmaciaServiceTests.exclusao(FarmaciaServiceTests.java:41)
+Caused by: javax.persistence.NonUniqueResultException: query did not return a unique result: 4
+	at br.edu.infnet.rodrigomoro.service.FarmaciaServiceTests.inclusao(FarmaciaServiceTests.java:36)
+	at br.edu.infnet.rodrigomoro.service.FarmaciaServiceTests.exclusao(FarmaciaServiceTests.java:41)
+

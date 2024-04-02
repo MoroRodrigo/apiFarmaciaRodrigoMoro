@@ -1,0 +1,6 @@
+br\edu\infnet\rodrigomoro\domain\EnderecoTests.class
+br\edu\infnet\rodrigomoro\service\MedicamentoServiceTests.class
+br\edu\infnet\rodrigomoro\service\EnderecoServiceTests.class
+br\edu\infnet\rodrigomoro\domain\MedicamentoTest.class
+br\edu\infnet\rodrigomoro\domain\FarmaciaTest.class
+br\edu\infnet\rodrigomoro\service\FarmaciaServiceTests.class

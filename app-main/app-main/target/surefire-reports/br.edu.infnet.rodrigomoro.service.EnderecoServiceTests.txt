@@ -1,0 +1,18 @@
+-------------------------------------------------------------------------------
+Test set: br.edu.infnet.rodrigomoro.service.EnderecoServiceTests
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 0.115 s <<< FAILURE! - in br.edu.infnet.rodrigomoro.service.EnderecoServiceTests
+inclusao  Time elapsed: 0.059 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <Endereço: 4;20010020;Rua São José;4º andar;Centro;Rio de Janeiro;RJ> but was: <null>
+	at br.edu.infnet.rodrigomoro.service.EnderecoServiceTests.inclusao(EnderecoServiceTests.java:34)
+
+recuperacaoTotal  Time elapsed: 0.017 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <Endereço: 5;20010020;Rua São José;4º andar;Centro;Rio de Janeiro;RJ> but was: <null>
+	at br.edu.infnet.rodrigomoro.service.EnderecoServiceTests.inclusao(EnderecoServiceTests.java:34)
+	at br.edu.infnet.rodrigomoro.service.EnderecoServiceTests.recuperacaoTotal(EnderecoServiceTests.java:48)
+
+exclusao  Time elapsed: 0.018 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <Endereço: 6;20010020;Rua São José;4º andar;Centro;Rio de Janeiro;RJ> but was: <null>
+	at br.edu.infnet.rodrigomoro.service.EnderecoServiceTests.inclusao(EnderecoServiceTests.java:34)
+	at br.edu.infnet.rodrigomoro.service.EnderecoServiceTests.exclusao(EnderecoServiceTests.java:39)
+
